@@ -1,0 +1,309 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 84px;
+  margin: 0;
+  padding-top: 30vh;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  padding-left: 10vw;
+  padding-top: 10vw;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.splash {
+  background-image: url(../images/ana-grave-156852-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+#date {
+  color: #FFFFFF;
+}
+
+#button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7c7a7a;
+  opacity: 40%;
+  border-color: #FFFFFF;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 300;
+  width: 180px;
+  height: 55px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 0vw 10vw;
+}
+
+.about-left {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about-right {
+  font-size: 24px;
+  padding-left: 10vw;
+}
+
+#music {
+  background-color: #F9F9F9;
+  margin: 0;
+  padding-left: 10vw;
+  padding-top: 10vw;
+}
+
+.music {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F9F9F9;
+}
+
+iframe {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+
+.music-right {
+  font-size: 22px;
+  padding: 0 20vw 0vw 5vw;
+}
+
+.gallery {
+  padding-left: 10vw;
+  padding-bottom: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  width: 285px;
+  height: 285px;
+  padding: 8px;
+}
+
+form, #display-comment {
+  background-color: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 15vh;
+  padding-bottom: 15vh;
+}
+
+#comment-name, #comment-block {
+  border-radius: 4px;
+  width: 40vw;
+}
+
+#comment-block {
+  height: 200px;
+  padding-bottom: 10vh;
+}
+
+#comment-name {
+  height: 50px;
+}
+
+#post-button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 198px;
+  height: 55px;
+  padding: 20px, 40px;
+  border-radius: 4px;
+  margin-top: 5vh;
+}
+
+#display-comment p {
+  font-size: 12px;
+  width: 50%;
+  border-bottom: #D7d7d7 solid 1px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+#display-comment h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#contact {
+  background-color: #272727;
+  margin: 0;
+  padding-left: 10vw;
+  padding-top: 10vw;
+  color: white;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #272727;
+  padding: 0 5vw;
+  color: #FFFFFF;
+}
+
+.contact h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 5vw;
+}
+
+.contact p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5vw;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #272727;
+}
+
+.social img {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #272727;
+}
+
+.copyright p {
+  color: #FFFFFF;
+  font-size: 10px;
+  margin: 10vw;
+}
+
+table {
+  width: 82vw;
+  margin: 0 auto;
+}
+
+.shows-background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/hanny-naibaho-388579-unsplash.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hanny-naibaho-388579-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+#shows-table {
+  margin: 10vw;
+}
+
+.date, .venue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  width: 30vw;
+}
+
+.location {
+  width: 30vw;
+}
+
+.ticket-button {
+  background-color: #a0a0a0;
+  opacity: 0.75;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 198px;
+  height: 55px;
+  padding: 20px, 40px;
+  border: solid 2px white;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=styles.css.map */
